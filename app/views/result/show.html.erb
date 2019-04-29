@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>お前仕事できへんでメーカー</title>
-  <%= csrf_meta_tags %>
-  <%= csp_meta_tag %>
-
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-</head>
-
-<body>
-<%= render 'layouts/header' %>
 <h1><%= @message %></h1>
 <a target="_blank" href="https://twitter.com/intent/tweet?url=https://hibino-kubi.herokuapp.com/<%= @bool %>&text=私は仕事を<%= @message %>人間です #お前仕事出来ひんぞメーカー">
   <button class="tweet">ツイートする</button>
 </a>
-<%= render 'layouts/footer' %>
-</body>
-</html>
