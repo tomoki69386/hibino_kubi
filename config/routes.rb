@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: 'top#index'
-  get 'result', to: 'result#show'
+  get '/result', to: 'result#show'
 end
