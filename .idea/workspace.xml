@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5244c388-61b7-4dc7-b377-99dfeb52891f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/top/false.html.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/top/false.html.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/top/true.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/top/true.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/top/true.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state>
+              <caret column="58" lean-forward="true" selection-start-column="58" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -64,10 +65,10 @@
         <option value="$PROJECT_DIR$/app/views/results/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/result_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/result/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/top/true.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/top_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/top/false.html.rb" />
+        <option value="$PROJECT_DIR$/app/views/top/true.html.erb" />
       </list>
     </option>
   </component>
@@ -265,7 +266,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4478000" />
+    <option name="totallyTimeSpent" value="4514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -365,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/top/true.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state>
+          <caret column="58" lean-forward="true" selection-start-column="58" selection-end-column="58" />
         </state>
       </provider>
     </entry>
