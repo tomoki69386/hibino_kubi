@@ -1,10 +1,10 @@
 class ResultController < ApplicationController
   def show
     if random
-      @message = ["出来る"].sample
+      @message = ["私は仕事ができないのでどこの会社も解雇されます。"].sample
       @bool = true
     elsif
-      @message = ["出来ない"].sample
+      @message = ["私は仕事ができるので小学校に通う必要はありませんでした"].sample
       @bool = false
     end
   end
