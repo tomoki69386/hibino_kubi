@@ -1,24 +1,41 @@
-# README
+# サービス名
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+仕事出来ひんぞメーカー
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+# 目標
 
-* Configuration
+売却する
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+# 概要
 
-* Services (job queues, cache servers, search engines, etc.)
+自分が仕事出来る人なのか、出来ない人なのか教えてくれる
 
-* Deployment instructions
 
-* ...
+
+# 仕様
+
+- 仕事が出来るか出来ないかをランダムで返す
+
+- 同じIPからアクセスすると同じ結果を返す
+- ツイートが出来る
+- OGP対応
+
+
+
+#  必要画面
+
+- 最初の判定画面
+- サービス名
+- サービスの簡単な説明分
+- Copyright
+- 判定ボタン
+- 結果表示画面
+- 結果を表示
+- 首になった開発者からのアドバイスがランダム
+- Copyright
+- ツイートボタン
+
