@@ -4,10 +4,10 @@ class TopController < ApplicationController
   end
 
   def true
-
+    redirect_to :action => 'index'
   end
 
   def false
-    
+    redirect_to :action => 'index'
   end
 end
