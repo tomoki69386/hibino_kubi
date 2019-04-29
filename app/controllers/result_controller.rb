@@ -1,13 +1,13 @@
 class ResultController < ApplicationController
   def show
-    puts random
+    if random
+      @message = ["出来る"].sample
+    elsif
+      @message = ["出来ない"].sample
+    end
   end
 
   private
-
-  def create
-
-  end
 
   def random
     return [true, false].sample
