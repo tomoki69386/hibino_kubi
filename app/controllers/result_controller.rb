@@ -1,15 +1,15 @@
 class ResultController < ApplicationController
-  def create
-
-  end
-
   def show
-
+    puts random
   end
 
   private
 
-  def random
+  def create
 
+  end
+
+  def random
+    return [true, false].sample
   end
 end
