@@ -49,4 +49,6 @@ node_modules/
 
 *.idea/
 .idea/
+*/tmp
+tmp
 
