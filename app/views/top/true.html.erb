@@ -1,6 +1,23 @@
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@tomoki_sun" />
-<meta property="og:url" content="https://hibino-kubi.herokuapp.com" />
-<meta property="og:title" content="お前仕事出来ひんぞメーカー" />
-<meta property="og:description" content="このサービスはお前は仕事でうまくやっていけるけどお前や無理やでっていうのを判別してくれるアプリです。仕事ができない人はニートになり朽ち果てましょう！" />
-<meta property="og:image" content="https://hibino-kubi.herokuapp.com/true.png" />
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HibikoKubi</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@tomoki_sun" />
+  <meta property="og:url" content="https://hibino-kubi.herokuapp.com" />
+  <meta property="og:title" content="お前仕事出来ひんぞメーカー" />
+  <meta property="og:description" content="このサービスはお前は仕事でうまくやっていけるけどお前や無理やでっていうのを判別してくれるアプリです。仕事ができない人はニートになり朽ち果てましょう！" />
+  <meta property="og:image" content="https://hibino-kubi.herokuapp.com/true.png" />
+</head>
+
+<body>
+<%= render 'layouts/header' %>
+<%= render 'layouts/footer' %>
+</body>
+</html>

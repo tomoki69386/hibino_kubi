@@ -1499,3 +1499,21 @@ puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
 puma (3.12.1) lib/puma/server.rb:474:in `process_client'
 puma (3.12.1) lib/puma/server.rb:334:in `block in run'
 puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-29 23:00:17 +0900
+Processing by TopController#index as HTML
+  Rendering top/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered top/index.html.erb within layouts/application (92.6ms)
+Completed 200 OK in 115ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for ::1 at 2019-04-29 23:00:18 +0900
+Processing by ResultController#show as HTML
+  Rendering result/show.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered result/show.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
